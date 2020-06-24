@@ -1,4 +1,6 @@
-package com.lgcns.test.suno.model;
+package com.lgcns.test.suno.model.r17;
+
+import com.lgcns.test.suno.model.IMessageExecutor;
 
 public class SimpleMessageExecutor implements IMessageExecutor {
 

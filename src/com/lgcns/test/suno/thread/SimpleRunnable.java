@@ -1,6 +1,6 @@
 package com.lgcns.test.suno.thread;
 
-import com.lgcns.test.suno.model.SimpleEntity;
+import com.lgcns.test.suno.model.r17.SimpleEntity;
 
 public class SimpleRunnable implements Runnable {
 	private SimpleEntity entity = null;

@@ -1,10 +1,15 @@
-package com.lgcns.test.suno.model;
+package com.lgcns.test.suno.model.r17;
 
 import java.util.HashMap;
 import java.util.Map;
 
+import com.lgcns.test.suno.model.ICounter;
+import com.lgcns.test.suno.model.IEntity;
+
 public class SimpleCounter implements ICounter {
 	private HashMap<String, Integer> counters = new HashMap<>();
+	
+	public SimpleCounter() {}
 	
 	@Override
 	public Map<String, Integer> getCounters() {

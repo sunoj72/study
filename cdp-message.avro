@@ -1,0 +1,934 @@
+{
+  "namespace": "com.lgcns.cdp",
+  "name": "cdp-event",
+  "type": "record",
+  "fields": [
+    {
+      "name": "ga_&gtm",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "2wg150K6GHZVS"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga__gbt",
+      "type": {
+        "type": "int",
+        "arg.properties": {
+          "range": {
+            "min": 1241889383,
+            "max": 1881889383
+          }
+        }
+      }
+    },
+    {
+      "name": "ga__gclid",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "Cj0KCQiA8vSOBhCkARIsAGdp6RTQig9gcVf3Uu6Pf4l0FyvSmVugOd-jfgqvjgUeWhNmuI1Z1wQw6WoaAo_TEALw_wcB"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga__gcn",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "_gid"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga__ge",
+      "type": {
+        "type": "long",
+        "arg.properties": {
+          "range": {
+            "min": 7175993163,
+            "max": 7975993163
+          }
+        }
+      }
+    },
+    {
+      "name": "ga__gid",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "669656901.1641889376"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga__gt",
+      "type": {
+        "type": "int",
+        "arg.properties": {
+          "range": {
+            "min": 1241889383,
+            "max": 1881889383
+          }
+        }
+      }
+    },
+    {
+      "name": "ga__tac",
+      "type": {
+        "type": "boolean",
+        "arg.properties": {
+          "options": [
+            true,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga__um",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,true]"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_adSenseId",
+      "type": {
+        "type": "int",
+        "arg.properties": {
+          "range": {
+            "min": 910383352,
+            "max": 990383352
+          }
+        }
+      }
+    },
+    {
+      "name": "ga_allowAnchor",
+      "type": {
+        "type": "boolean",
+        "arg.properties": {
+          "options": [
+            true,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_apiVersion",
+      "type": {
+        "type": "int",
+        "arg.properties": {
+          "options": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_clientId",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "522700926.1631602369"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_clientVersion",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "j96"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_contentGroup1",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "개인|U+Shop"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_contentGroup2",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "개인|U+Shop|이벤트"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_contentGroup3",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "개인|U+Shop|이벤트|진행중인 이벤트"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_contentGroup4",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "개인|U+Shop|이벤트|진행중인 이벤트|이벤트 상세"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_contentGroup5",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "개인|U+Shop|이벤트|진행중인 이벤트|이벤트 상세"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_cookieDomain",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "uplus.co.kr"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_cookieExpires",
+      "type": {
+        "type": "int",
+        "arg.properties": {
+          "options": [
+            63072000
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_cookieName",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "_ga"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_cookiePath",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "/"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_cookieUpdate",
+      "type": {
+        "type": "boolean",
+        "arg.properties": {
+          "options": [
+            true,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dcLoaded",
+      "type": {
+        "type": "boolean",
+        "arg.properties": {
+          "options": [
+            true,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dil_response",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "success"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension4",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "not use"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension13",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "not use"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension15",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "PC|개인|U+Shop"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension16",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "522700926.1631602369"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension20",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "개인|U+Shop|이벤트|진행중인 이벤트|이벤트상세"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension188",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "422d6c4e-9594-4ab8-991f-6edd67eee8fc"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension189",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "5cda2a5a-7bf0-4fc7-a325-f9ab805a3e6e"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension190",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "60666688152121692391103927007101147136"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension192",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "유플러스"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension193",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "유플러스 홈페이지"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension194",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "shop.uplus.co.kr"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension195",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "Web",
+            "Android",
+            "IOS"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension196",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "U+키즈폰 with리틀카카오프렌즈 출시 사전 이벤트 < 이벤트 | LG U+"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension197",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "KO"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension198",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "522700926.1631602369"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_dimension199",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "1641889380907.hwoowjpe"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_encoding",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "UTF-8"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_hitType",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "pageview"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_language",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "ko-kr"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_legacyHistoryImport",
+      "type": {
+        "type": "boolean",
+        "arg.properties": {
+          "options": [
+            true,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_location",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "https://shop.uplus.co.kr/pc/event/eventView?ushpPmtnNo=10601&eventOrder=lately&ushpBzdpCd=01&pageNo=1&fromId=pgrs&ushpPmtnDivsCd=03"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_name",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "gtm2006"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_sampleRate",
+      "type": {
+        "type": "int",
+        "arg.properties": {
+          "options": [
+            100
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_screenColors",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "24-bit"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_screenResolution",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "1920x1080"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_siteSpeedSampleRate",
+      "type": {
+        "type": "int",
+        "arg.properties": {
+          "options": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_storage",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "cookie"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_storeGac",
+      "type": {
+        "type": "boolean",
+        "arg.properties": {
+          "options": [
+            true, 
+            false
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_storedClientId",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "522700926.1631602369"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_trackingId",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "UA-125434686-1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_transport",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "beacon"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ga_viewportSize",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "1903x528"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_browser",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "td_browser"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_browser_version",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "td_browser_version"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_charset",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "utf-8"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_client_id",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "422d6c4e-9594-4ab8-991f-6edd67eee8fc"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_color",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "24-bit"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_description",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "오직 LG유플러스샵 고객에게만 드리는 특별한 이벤트! U+키즈폰 with리틀카카오프렌즈 출시 사전 이벤트이벤트를 소개합니다.U+카카오리틀프렌즈폰5, 카카오리틀프렌즈폰5, 카카오리틀프렌즈폰, kakao, 키즈폰, MGM프로모션, 프랜즈, 프렌즈폰, 카카오폰"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_global_id",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "32dfec91-fa75-4a33-be2f-afdbdc976cb8"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_host",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "shop.uplus.co.kr"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_ip",
+      "type": {
+        "session" : "true",
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "111.152.45.45",
+            "111.203.236.146",
+            "111.168.57.122",
+            "111.249.79.93",
+            "111.168.57.122",
+            "111.90.225.227",
+            "111.173.165.103",
+            "111.145.8.144",
+            "111.245.174.248",
+            "111.245.174.111",
+
+            "222.152.45.45",
+            "222.203.236.146",
+            "222.168.57.122",
+            "222.249.79.93",
+            "222.168.57.122",
+            "222.90.225.227",
+            "222.173.165.103",
+            "222.145.8.144",
+            "222.245.174.248",
+            "222.245.174.222",
+
+            "122.152.45.245",
+            "122.203.236.246",
+            "122.168.57.222",
+            "122.249.79.233",
+            "122.168.57.222",
+            "122.90.225.227",
+            "122.173.165.203",
+            "122.145.8.244",
+            "122.245.174.248",
+            "122.245.174.122",
+
+            "233.152.245.45",
+            "233.203.236.146",
+            "233.168.257.122",
+            "233.249.279.93",
+            "233.168.257.122",
+            "233.90.225.227",
+            "233.173.215.103",
+            "233.145.28.144",
+            "233.245.174.248",
+            "233.245.174.233"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_language",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "ko-kr"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_os",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "Windows",
+            "OSX"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_os_version",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "10.0.22000.438"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_path",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "/pc/event/eventView"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_platform",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "Win32"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_referrer",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "https://shop.uplus.co.kr/pc/main?utm_source=google&utm_medium=portal_sa&utm_campaign=ushop_mobile_p_mobile-pc-sa&utm_content=%EA%B2%80%EC%83%89%EA%B4%91%EA%B3%A0_01-%EB%B8%8C%EB%9E%9C%EB%93%9C-01-%EB%B8%8C%EB%9E%9C%EB%93%9C_main__&utm_term=U%ED%94%8C%EB%9F%AC%EC%8A%A4&gclid=Cj0KCQiA8vSOBhCkARIsAGdp6RTQig9gcVf3Uu6Pf4l0FyvSmVugOd-jfgqvjgUeWhNmuI1Z1wQw6WoaAo_TEALw_wcB"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_screen",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "1920x1080"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_title",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "U+키즈폰 with리틀카카오프렌즈 출시 사전 이벤트 < 이벤트 | LG U+"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_url",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "https://shop.uplus.co.kr/pc/event/eventView?ushpPmtnNo=10601&eventOrder=lately&ushpBzdpCd=01&pageNo=1&fromId=pgrs&ushpPmtnDivsCd=03"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_user_agent",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_version",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "2.2.0"
+          ]
+        }
+      }
+    },
+    {
+      "name": "td_viewport",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "1920x528"
+          ]
+        }
+      }
+    }
+  ]
+}

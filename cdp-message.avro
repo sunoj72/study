@@ -1,6 +1,6 @@
 {
   "namespace": "com.lgcns.cdp",
-  "name": "cdp-event",
+  "name": "cdp_event",
   "type": "record",
   "fields": [
     {

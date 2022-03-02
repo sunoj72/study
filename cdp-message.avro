@@ -298,6 +298,17 @@
       }
     },
     {
+      "name": "ga_dimension3",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "options": [
+            "test"
+          ]
+        }
+      }
+    },
+    {
       "name": "ga_dimension4",
       "type": {
         "type": "string",

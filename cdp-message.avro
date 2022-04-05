@@ -665,6 +665,13 @@
       }
     },
     {
+      "name": "ga_timestamp",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    },
+    {
       "name": "td_browser",
       "type": {
         "type": "string",

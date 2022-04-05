@@ -668,7 +668,7 @@
       "name": "ga_timestamp",
       "type": {
         "type": "long",
-        "logicalType": "timestamp-millis"
+        "logicalType": "local-timestamp-millis"
       }
     },
     {

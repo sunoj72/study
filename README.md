@@ -1,2 +1,1 @@
-# study
-https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1nPxzFGIjuGaQLJ--YpsyYUotpTmOHaQC%2Fview%3Fusp%3Ddrive_web&data=05%7C01%7Csunoj%40lgcns.com%7C3f72e3d215a44280eefe08daace9a95f%7Cfab2d60fe6144f9db2ad9fb1397f2efe%7C0%7C0%7C638012416806841620%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=IQi9qZfWd2JXq3noFilc%2BH7Ispr9X3BqYtH8kZk36VQ%3D&reserved=0
+#study

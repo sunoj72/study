@@ -1,29 +1,34 @@
 package com.lgcns.test;
 
+import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 /* ----------------------------------------------------------------------------
  * 
- * Worker.java - removeExpiredStoreItems() 구현, 그 외 변경 금지
+ * Worker.java - removeExpiredStoreItems() 占쏙옙占쏙옙, 占쏙옙 占쏙옙 占쏙옙占쏙옙 占쏙옙占쏙옙
  * 
  * ----------------------------------------------------------------------------
  */
 public class Worker extends AbstractWorker {
-	
-	/*
-	 * ※ Worker 생성
-	 * - <Queue 번호>를 파라미터로 하여 Worker 인스턴스 생성
-	 */
+//	private List<String> store = Collections.synchronizedList(new ArrayList<>());
+
 	public Worker(int queueNo) {
 		super(queueNo);
 	}
 
-	/*
-	 * ※ 만료된 Store Item 제거
-	 * - 입력된 Timestamp와 Store Item의 Timestamp간의 차이가 만료시간(3000)을 초과하면 Store에서 제거
-	 */
 	public void removeExpiredStoreItems(long timestamp, List<String> store) {
-		// 아래 라인을 지우고 만료된 Store Item 제거 기능을 구현하세요.
-		throw new UnsupportedOperationException("removeExpiredStoreItems()를 구현하세요.");
+		Iterator<String> itr = store.iterator();
+		
+		while(itr.hasNext()) {
+			String line = itr.next();
+			String[] params = line.split("#");
+			
+			if (timestamp - Long.parseLong(params[0]) > 3000) {
+				itr.remove();
+			}
+		}
+		
+//		System.out.println("[STORE] " + Arrays.toString(store.toArray()));
 	}
 }

@@ -1,12 +1,34 @@
 package com.lgcns.test;
 
+import java.util.Scanner;
+
 public class RunManager {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		// Worker »ı¼º ¹× ½ÇÇà Sample - ¾Æ·¡ 2°³ÀÇ ¶óÀÎÀ» Áö¿ì°í ±¸ÇöÇÏ¼¼¿ä.
-		Worker worker = new Worker(0);
-		worker.run("VIEW_AD1");
+		Worker[] workers = new Worker[2];
+		
+		
+		// Worker ìƒì„± ë° ì‹¤í–‰ Sample - ì•„ë˜ 2ê°œì˜ ë¼ì¸ì„ ì§€ìš°ê³  êµ¬í˜„í•˜ì„¸ìš”.
+		workers[0] = new Worker(0);
+		workers[1] = new Worker(1);
+		
+		Scanner scaner = new Scanner(System.in);
+		
+		while(scaner.hasNextLine()) {
+			String line = scaner.nextLine();
+			String result = null;
+			
+			String[] params = line.split("\\ ");
+			if (params[0].equals("0")) {
+				result = workers[0].run(params[1]);
+			} {
+				result = workers[1].run(params[1]);
+			}
+			
+			if (result != null) {
+				System.out.println(result);
+			}
+		}
 	}
 }

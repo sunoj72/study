@@ -36,3 +36,5 @@
 - GCP 이해하기 - 1. GCP 개요 (https://wire.lgcns.com/confluence/pages/viewpage.action?pageId=114321518)
 - 
 
+http://alb-dca001-1335163442.ap-northeast-2.elb.amazonaws.com:8080/
+http://alb-dca001-1335163442.ap-northeast-2.elb.amazonaws.com:8400/

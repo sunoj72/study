@@ -1,0 +1,58 @@
+---
+S3PROXY_AUTHORIZATION=aws-v2-or-v4
+S3PROXY_ENDPOINT=http://0.0.0.0:9000
+S3PROXY_IDENTITY=s3-user
+S3PROXY_CREDENTIAL=abcdefghijklmnopqrstuvwxyz
+S3PROXY_VIRTUALHOST=
+S3PROXY_KEYSTORE_PATH=keystore.jks
+S3PROXY_KEYSTORE_PASSWORD=password
+S3PROXY_CORS_ALLOW_ALL=true
+S3PROXY_IGNORE_UNKNOWN_HEADERS=true
+S3PROXY_READ_ONLY_BLOBSTORE=false
+JCLOUDS_PROVIDER=filesystem-nio2
+JCLOUDS_REGIONS=us-east-1
+JCLOUDS_IDENTITY=remote-identity
+JCLOUDS_CREDENTIAL=remote-credential
+JCLOUDS_FILESYSTEM_BASEDIR=/data
+
+
+---
+java -DLOG_LEVEL=info \
+  -Ds3proxy.endpoint=http://0.0.0.0:9000 \
+  -Ds3proxy.secure-endpoint= \
+  -Ds3proxy.virtual-host= \
+  -Ds3proxy.keystore-path=keystore.jks \
+  -Ds3proxy.keystore-password=password \
+  -Ds3proxy.authorization=aws-v2-or-v4 \
+  -Ds3proxy.identity=s3-user \
+  -Ds3proxy.credential=abcdefghijklmnopqrstuvwxyz \
+  -Ds3proxy.cors-allow-all=true \
+  -Ds3proxy.cors-allow-origins= \
+  -Ds3proxy.cors-allow-methods= \
+  -Ds3proxy.cors-allow-headers= \
+  -Ds3proxy.cors-exposed-headers= \
+  -Ds3proxy.cors-allow-credential= \
+  -Ds3proxy.ignore-unknown-headers=true \
+  -Ds3proxy.encrypted-blobstore= \
+  -Ds3proxy.encrypted-blobstore-password= \
+  -Ds3proxy.encrypted-blobstore-salt= \
+  -Ds3proxy.v4-max-non-chunked-request-size=134217728 \
+  -Ds3proxy.read-only-blobstore=false \
+  -Ds3proxy.maximum-timeskew= \
+  -Ds3proxy.service-path= \
+  -Djclouds.provider=filesystem-nio2 \
+  -Djclouds.identity=remote-identity \
+  -Djclouds.credential=remote-credential \
+  -Djclouds.endpoint= \
+  -Djclouds.region= \
+  -Djclouds.regions=us-east-1 \
+  -Djclouds.keystone.version= \
+  -Djclouds.keystone.scope= \
+  -Djclouds.keystone.project-domain-name= \
+  -Djclouds.filesystem.basedir=/data \
+  -Djclouds.azureblob.tenantId= \
+  -Djclouds.azureblob.auth= \
+  -Djclouds.azureblob.account= \
+  -jar/opt/s3proxy/s3proxy \
+  --properties /dev/null
+
